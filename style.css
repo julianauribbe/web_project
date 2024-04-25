@@ -1,0 +1,157 @@
+h1 {
+  color: #093923;
+  font-size: 75px;
+  padding-bottom: 0px;
+}
+
+h2 {
+  color: #093923;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  top: 0;
+  padding: 0px;
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+body {
+  background-color: #fff4b7;
+  font-family: "Courier New", Courier, monospace serif sans-serif;
+  margin: 0;
+}
+
+.stack-text {
+  flex-direction: column;
+  padding-left: 20px;
+  border-left: 4px solid #093923;
+}
+
+.stack-text-p p {
+  width: 400px;
+  text-wrap: wrap;
+  flex-direction: column;
+  padding-left: 20px;
+  border-left: 4px solid #093923;
+}
+.wrapper {
+  padding: 24px;
+  justify-content: center;
+}
+
+.home-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-picture {
+  overflow: hidden;
+  height: 400px;
+  margin-right: 40px;
+}
+
+.profile-picture img {
+  border-radius: 50%;
+}
+
+.intro-text {
+  margin-top: 50px;
+  border: 2px solid #093923;
+  border-radius: 12px;
+  text-align: center;
+  padding: 16px 24px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+}
+
+.socials a {
+  margin: 0px 16px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  background-color: #093923;
+}
+
+li a {
+  float: left;
+  text-align: center;
+  padding: 20px;
+  color: #fff4b7;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #093923;
+  background-color: #ed9808;
+}
+
+img.social:hover {
+  opacity: 0.5;
+}
+
+.portfolio-sections {
+  width: 1600px;
+  justify-content: center;
+}
+
+div.section {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #093923;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 5px;
+  border-color: #ed9808;
+  border-style: solid;
+  color: #fff4b7;
+}
+
+div.section2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  margin: 8px 0px;
+  background-color: #093923;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 5px;
+  border-color: #ed9808;
+  border-style: solid;
+  color: #fff4b7;
+}
+
+div.section3 {
+  display: flex;
+  margin: 8px 0px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #093923;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 5px;
+  border-color: #ed9808;
+  border-style: solid;
+  color: #fff4b7;
+}
